@@ -1,0 +1,28 @@
+Git command for gh-pages
+
+Curts-MacBook-Pro:pcs cpoff$ ls
+cpoff.github.io		jsProject		pcs-primer-exercise
+gitTest			jsProject_bak		pcsProject
+Curts-MacBook-Pro:pcs cpoff$ cd cpoff.github.io
+Curts-MacBook-Pro:cpoff.github.io cpoff$ ls
+index.html
+Curts-MacBook-Pro:cpoff.github.io cpoff$ pwd
+/Users/cpoff/documents/pcs/cpoff.github.io
+Curts-MacBook-Pro:cpoff.github.io cpoff$ pwd
+/Users/cpoff/documents/pcs/cpoff.github.io
+Curts-MacBook-Pro:cpoff.github.io cpoff$ get fetch origin gh-pages
+-bash: get: command not found
+Curts-MacBook-Pro:cpoff.github.io cpoff$ git fetch origin gh-pages
+From https://github.com/cpoff/cpoff.github.io
+ * branch            gh-pages   -> FETCH_HEAD
+ * [new branch]      gh-pages   -> origin/gh-pages
+Curts-MacBook-Pro:cpoff.github.io cpoff$ pwd
+/Users/cpoff/documents/pcs/cpoff.github.io
+Curts-MacBook-Pro:cpoff.github.io cpoff$ git checkout gh-pages
+M	index.html
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Switched to a new branch 'gh-pages'
+Curts-MacBook-Pro:cpoff.github.io cpoff$ pwd
+/Users/cpoff/documents/pcs/cpoff.github.io
+Curts-MacBook-Pro:cpoff.github.io cpoff$ ls
+index.html
