@@ -4,6 +4,7 @@ GENERAL PAGE STYLING
 
 .outer-container {
   text-align: center;
+  /*z-index: 2;*/
 }
 
 
@@ -14,16 +15,17 @@ TITLE BAR
 #title-bar {
   background-color: #B64926;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 48px;
   color: #fff;
   position: fixed;
-  z-index: 1;
+  /*z-index: 1;*/
   width: 100%;
-  border-bottom: solid 5px #8E2800;
+  border-bottom: solid 3px #8E2800;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0 0 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 0 5px 0;
 }
 
 /*****************************************************************
@@ -38,24 +40,69 @@ LOGO
 }
 
 /*****************************************************************
+NAVIGATION
+*****************************************************************/
+
+.nav-container {
+  position: relative;
+}
+
+.navigation {
+
+}
+
+
+/*****************************************************************
 ARTICLES
 *****************************************************************/
 
 .article-title {
   background-color: #FFB03B;
   font-family: 'Raleway', sans-serif;
+  font-weight: 200;
   color: #fff;
   border-bottom: solid 2px #B64926;
   padding: 2px 0 0 2px;
 
 }
 
+.article-title h1{
+  font-weight: 400;
+}
+
 .article-img {
   float: left;
+  margin-top: 15px;
+}
+
+#article-img {
+
 }
 
 .article-content {
-
+  text-align: left;
+  background-color: #468966;
+  display: block;
+  margin-left: 115px;
 }
 
+.article-content {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 10px;
+  margin-top: 15px;
+}
 
+/*****************************************************************
+FOOTER
+*****************************************************************/
+
+.site-footer {
+  background: #B64926;
+  border-top: solid 3px #8E2800;
+  width: 100%;
+  height: 70px;
+  margin-top: 15px;
+  position: absolute;
+}
