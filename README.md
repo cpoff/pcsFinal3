@@ -1,2 +1,2 @@
 # pcsFinal3
-Third attempt at a functional repo.
+Angela and Curt's capstone project for mobile responsive site.
