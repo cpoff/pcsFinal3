@@ -1,3 +1,61 @@
-body {
-	
+/*****************************************************************
+GENERAL PAGE STYLING
+*****************************************************************/
+
+.outer-container {
+  text-align: center;
 }
+
+
+/*****************************************************************
+TITLE BAR
+*****************************************************************/
+
+#title-bar {
+  background-color: #B64926;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #fff;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 5px #8E2800;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 0 20px 0;
+}
+
+/*****************************************************************
+LOGO
+*****************************************************************/
+
+#logo-img {
+  margin-top: 100;
+  display: inline-block;
+  margin-top: 100px;
+  width: 40%;
+}
+
+/*****************************************************************
+ARTICLES
+*****************************************************************/
+
+.article-title {
+  background-color: #FFB03B;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  border-bottom: solid 2px #B64926;
+  padding: 2px 0 0 2px;
+
+}
+
+.article-img {
+  float: left;
+}
+
+.article-content {
+
+}
+
+
