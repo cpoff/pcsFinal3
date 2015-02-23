@@ -62,12 +62,14 @@ ARTICLES
   font-weight: 200;
   color: #fff;
   border-bottom: solid 2px #B64926;
-  padding: 2px 0 0 2px;
+  padding: 2px 0 0px 15px;
+  font-size: 2em;
 
 }
 
 .article-title h1{
   font-weight: 400;
+  font-size: ;
 }
 
 .article-img {
@@ -84,6 +86,7 @@ ARTICLES
   background-color: #468966;
   display: block;
   margin-left: 115px;
+  font-size: 1.5em;
 }
 
 .article-content {
