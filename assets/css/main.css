@@ -1,3 +1,12 @@
+/*******************************************
+PHONE LAYOUT
+********************************************/
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+
+
 /*****************************************************************
 GENERAL PAGE STYLING
 *****************************************************************/
@@ -237,3 +246,16 @@ footer #menu-img {
   padding-bottom: 5px;
   padding-top: 5px;
 }
+
+/*******************************************
+MEDIUM LAYOUT
+********************************************/
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+
+
+
