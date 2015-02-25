@@ -2,11 +2,21 @@
 GENERAL PAGE STYLING
 *****************************************************************/
 
-.outer-container {
+#content {
   text-align: center;
+  clear: both;
+  padding-top: 1em;
   /*z-index: 2;*/
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+}
 
 /*****************************************************************
 TITLE BAR
@@ -26,6 +36,7 @@ TITLE BAR
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 0 5px 0;
+  top: 0;
 }
 
 /*****************************************************************
@@ -40,17 +51,89 @@ LOGO
 }
 
 /*****************************************************************
-NAVIGATION
+NAVIGATION HYPERLINK STYLING
 *****************************************************************/
 
-.nav-container {
-  position: relative;
+#menu-container {
+  color: #fff;
+  background: #468966;
 }
 
-.navigation {
-
+.menu li a {
+  color: #fff;
+  background: #468966;
 }
 
+/*****************************************************************
+NAVIGATION - OFF-CANVAS STYLING
+*****************************************************************/
+
+#menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 13.755em;
+  left: -13.755em;
+  height: 100%;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+
+#menu.active {
+  -webkit-transform: translate(13.755em, 0px);
+  -moz-transform: translate(13.755em, 0px);
+  -o-transform: translate(13.755em, 0px);
+  -ms-transform: translate(13.755em, 0px);
+  transform: translate(13.755em, 0px);
+}
+
+.container {
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease; 
+}
+
+.container.active {
+  -webkit-transform: translate(13.725em, 0px);
+  -moz-transform: translate(13.725em, 0px);
+  -o-transform: translate(13.725em, 0px);
+  -ms-transform: translate(13.725em, 0px);
+  transform: translate(13.725em, 0px);
+}
+
+/*****************************************************************
+MENU BUTTON
+*****************************************************************/
+
+
+.clickable {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60px;
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-link {
+  position: absolute;
+  top: 15px;
+  left: -50px;
+}
 
 /*****************************************************************
 ARTICLES
@@ -64,7 +147,6 @@ ARTICLES
   border-bottom: solid 2px #B64926;
   padding: 2px 0 0px 15px;
   font-size: 2em;
-
 }
 
 .article-title h1{
@@ -75,6 +157,7 @@ ARTICLES
 .article-img {
   float: left;
   margin-top: 15px;
+  background: #468966;
 }
 
 #article-img {
@@ -85,8 +168,9 @@ ARTICLES
   text-align: left;
   background-color: #468966;
   display: block;
-  margin-left: 115px;
+  margin-left: 100px;
   font-size: 1.7em;
+  margin-top: 0;
 }
 
 .article-content {
