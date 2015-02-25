@@ -7,19 +7,17 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Raleway:400,100,200,600,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
 </head>
 <body>
+  <header id="header">
+      <h1 id="title-bar">A Big Title</h1>
+    </header>
   <!-- begin whole-page -->
   <div id="container">
-    <header>
-      <h1 id="title-bar">A Big Title</h1>
-      <div class="logo">
+    <div class="logo">
         <img id="logo-img" src="assets/img/noun_80561_cc.svg" alt="magazine logo" />
         <!-- <img src="assets/img/noun_80561_cc.svg" alt="magazine logo" class="logo-img"> -->
-      </div>
-    </header>
-
+    </div>
       <!-- begin content -->
       <div id="content">
         <div class="article-title">
@@ -94,7 +92,11 @@
  <!-- end container -->
   </div> 
   
-  <input type="button" value="Menu" class="menu-button">
+  <footer>
+    <button class="menu-button">
+      <img id="menu-img" src="assets/img/hamburger.svg" alt="menu" />
+    </button>
+  </footer>
     <nav id="menu">
       <a href="#menu" class="menu-link"></a>
         <ul class="menu">
@@ -106,6 +108,7 @@
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 <script src="assets/javascript/off-canvas-menu.js"></script>
 
