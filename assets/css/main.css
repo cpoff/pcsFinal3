@@ -14,10 +14,16 @@ a {
   color: #fff;
 }
 
-header {
+#header {
   text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
+#container {
+  padding-bottom: 50px;
+}
 /*****************************************************************
 TITLE BAR
 *****************************************************************/
@@ -28,8 +34,6 @@ TITLE BAR
   font-weight: 700;
   font-size: 48px;
   color: #fff;
-  position: fixed;
-  /*z-index: 1;*/
   width: 100%;
   border-bottom: solid 3px #8E2800;
   text-align: center;
@@ -48,6 +52,10 @@ LOGO
   display: inline-block;
   margin-top: 100px;
   width: 40%;
+}
+
+.logo {
+  text-align: center;
 }
 
 /*****************************************************************
@@ -101,10 +109,7 @@ ARTICLES
 NAVIGATION HYPERLINK STYLING
 *****************************************************************/
 
-#menu-container {
-  color: #fff;
-  background: #468966;
-}
+
 
 .menu li a {
   color: #fff;
@@ -161,6 +166,26 @@ NAVIGATION - OFF-CANVAS STYLING
   transform: translate(13.755em, 0px);
 }
 
+#header {
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease; 
+}
+
+#header.active {
+  -webkit-transform: translate(13.755em, 0px);
+  -moz-transform: translate(13.755em, 0px);
+  -o-transform: translate(13.755em, 0px);
+  -ms-transform: translate(13.755em, 0px);
+  transform: translate(13.755em, 0px);
+}
+
 /*****************************************************************
 MENU BUTTON
 *****************************************************************/
@@ -196,7 +221,7 @@ ul {
 FOOTER
 *****************************************************************/
 
-.site-footer {
+footer {
   background: #B64926;
   border-top: solid 3px #8E2800;
   width: 100%;
