@@ -51,91 +51,6 @@ LOGO
 }
 
 /*****************************************************************
-NAVIGATION HYPERLINK STYLING
-*****************************************************************/
-
-#menu-container {
-  color: #fff;
-  background: #468966;
-}
-
-.menu li a {
-  color: #fff;
-  background: #468966;
-}
-
-/*****************************************************************
-NAVIGATION - OFF-CANVAS STYLING
-*****************************************************************/
-
-#menu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 13.755em;
-  left: -13.755em;
-  height: 100%;
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-  -webkit-transition: 0.15s ease;
-  -moz-transition: 0.15s ease;
-  -o-transition: 0.15s ease;
-  transition: 0.15s ease;
-}
-
-#menu.active {
-  -webkit-transform: translate(13.755em, 0px);
-  -moz-transform: translate(13.755em, 0px);
-  -o-transform: translate(13.755em, 0px);
-  -ms-transform: translate(13.755em, 0px);
-  transform: translate(13.755em, 0px);
-}
-
-.container {
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-  -webkit-transition: 0.15s ease;
-  -moz-transition: 0.15s ease;
-  -o-transition: 0.15s ease;
-  transition: 0.15s ease; 
-}
-
-.container.active {
-  -webkit-transform: translate(13.725em, 0px);
-  -moz-transform: translate(13.725em, 0px);
-  -o-transform: translate(13.725em, 0px);
-  -ms-transform: translate(13.725em, 0px);
-  transform: translate(13.725em, 0px);
-}
-
-/*****************************************************************
-MENU BUTTON
-*****************************************************************/
-
-
-.clickable {
-  border: 1px solid #fff;
-  border-radius: 10px;
-  padding: 10px;
-  width: 60px;
-  margin: 10px;
-  color: #fff;
-  text-align: center;
-}
-
-.menu-link {
-  position: absolute;
-  top: 15px;
-  left: -50px;
-}
-
-/*****************************************************************
 ARTICLES
 *****************************************************************/
 
@@ -179,6 +94,102 @@ ARTICLES
   color: #fff;
   padding: 10px 10px;
   margin-top: 15px;
+}
+
+
+/*****************************************************************
+NAVIGATION HYPERLINK STYLING
+*****************************************************************/
+
+#menu-container {
+  color: #fff;
+  background: #468966;
+}
+
+.menu li a {
+  color: #fff;
+  background: #468966;
+}
+
+/*****************************************************************
+NAVIGATION - OFF-CANVAS STYLING
+*****************************************************************/
+
+#menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 13.755em;
+  left: -13.755em;
+  height: 100%; 
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+
+#menu.active {
+  -webkit-transform: translate(13.755em, 0px);
+  -moz-transform: translate(13.755em, 0px);
+  -o-transform: translate(13.755em, 0px);
+  -ms-transform: translate(13.755em, 0px);
+  transform: translate(13.755em, 0px);
+}
+
+#container {
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease; 
+}
+
+#container.active {
+  -webkit-transform: translate(13.755em, 0px);
+  -moz-transform: translate(13.755em, 0px);
+  -o-transform: translate(13.755em, 0px);
+  -ms-transform: translate(13.755em, 0px);
+  transform: translate(13.755em, 0px);
+}
+
+/*****************************************************************
+MENU BUTTON
+*****************************************************************/
+
+
+.menu-button {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #468966;
+}
+
+nav .menu-link {
+  position: absolute;
+  top: 15px;
+  left: -50px;
+}
+
+/*****************************************************************
+LIST STYLING
+*****************************************************************/
+
+ul {
+  padding: 
 }
 
 /*****************************************************************
