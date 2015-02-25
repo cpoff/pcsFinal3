@@ -1,10 +1,11 @@
 
- /*$('#menu').click(function() {
+ /*$('#clickable').click(function() {
 	$(this).html("Hola!");
 
 })*/ 
 
-$("menu-link").click(function() {
-  $("#menu").toggleclass("active");
-  $(".container").toggleclass("active");
+$(".menu-button").click(function() {
+  $("#menu").toggleClass("active");
+  $(".container").toggleClass("active");
+  console.log("yay");
 });
