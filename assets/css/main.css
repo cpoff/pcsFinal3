@@ -187,7 +187,7 @@ NAVIGATION - OFF-CANVAS STYLING
 }
 
 /*****************************************************************
-MENU BUTTON
+MENU BUTTON / FOOTER
 *****************************************************************/
 
 
@@ -209,18 +209,6 @@ nav .menu-link {
   left: -50px;
 }
 
-/*****************************************************************
-LIST STYLING
-*****************************************************************/
-
-ul {
-  padding: 
-}
-
-/*****************************************************************
-FOOTER
-*****************************************************************/
-
 footer {
   background: #B64926;
   border-top: solid 3px #8E2800;
@@ -231,9 +219,43 @@ footer {
 }
 
 footer #menu-img {
-  min-width: 3%;
-  max-width: 5%;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  height: 2em;
+  width: 2em;
 }
+
+
+
+/*****************************************************************
+LIST STYLING
+*****************************************************************/
+
+display - inline block
+play w/margis
+wrap in div, position div
+vertical display (vertical align middle if you think it's a table)
+
+/*.menu-item {
+  background: #468966;
+  width: 30%;
+}
+
+.menu-list {
+  background: #468966;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  width: 30%;
+  font-size: 2em;
+
+#whole-menu {
+  height: 70%;
+  background: #468966;
+}
+}*/
+
+
+
+
+/*****************************************************************
+FOOTER (See menu button / footer above)
+*****************************************************************/
+
