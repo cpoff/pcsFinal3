@@ -5,6 +5,7 @@ PHONE LAYOUT
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px)
+ Default styling is for mobile-first
 
 
 /*****************************************************************
@@ -118,11 +119,17 @@ ARTICLES
 NAVIGATION HYPERLINK STYLING
 *****************************************************************/
 
-
-
 .menu li a {
   color: #fff;
   background: #468966;
+}
+
+.menu li {
+    /*list-style-type:circle;*/
+    background: #468966;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 /*****************************************************************
@@ -201,15 +208,19 @@ MENU BUTTON / FOOTER
 
 
 .menu-button {
-  border: 1px solid #fff;
-  border-radius: 10px;
+  /*border: 1px solid #fff;*/
+  /*border-radius: 10px;*/
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
   padding: 10px;
-  width: 100px;
+  width: 130px;
   margin: 10px;
   color: #fff;
   text-align: center;
   font-size: 1.5em;
-  background-color: #468966;
+  background-color: #B64926;
 }
 
 nav .menu-link {
@@ -268,12 +279,22 @@ vertical display (vertical align middle if you think it's a table)
 FOOTER (See menu button / footer above)
 *****************************************************************/
 
-/*******************************************
-MEDIUM LAYOUT
-********************************************/
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape)
+@media screen and (min-width: 768px), (max-width: 1024px) {
+
+/*******************************************
+LOGO
+********************************************/
+  #logo-img {
+    text-align: left;
+  }
+
+  footer {
+    background: red;
+  }
+
+
+
+
+}
