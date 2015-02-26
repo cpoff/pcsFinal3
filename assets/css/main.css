@@ -3,10 +3,6 @@ PHONE LAYOUT
 ********************************************/
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px)
- Default styling is for mobile-first
-
 
 /*****************************************************************
 GENERAL PAGE STYLING
@@ -52,6 +48,7 @@ TITLE BAR
   margin: 0 0 5px 0;
   top: 0;
 }
+
 
 /*****************************************************************
 LOGO
@@ -249,10 +246,6 @@ footer #menu-img {
 LIST STYLING
 *****************************************************************/
 
-display - inline block
-play w/margis
-wrap in div, position div
-vertical display (vertical align middle if you think it's a table)
 
 /*.menu-item {
   background: #468966;
@@ -281,20 +274,99 @@ FOOTER (See menu button / footer above)
 
 
 /* iPads (landscape) ----------- */
-@media screen and (min-width: 768px), (max-width: 1024px) {
+@media screen and (min-width: 768px) {
 
 /*******************************************
-LOGO
+LOGO (MEDIUM)
 ********************************************/
+  .logo {
+    position: fixed;
+  }
+
   #logo-img {
-    text-align: left;
+    display: inline;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 5em;
+    margin-top: 0px;
   }
 
-  footer {
+/*******************************************
+TITLE BAR (MEDIUM)
+********************************************/
+
+  #title-bar {
+    display: none;
+  }
+
+  #medium-title {
+    float: left;
+    margin-left: 15em;
+  }
+
+  #medium-title h1 {
     background: red;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    border-top: solid 3px black; 
+    border-bottom: solid 3px black; 
   }
 
+/*****************************************************************
+NAVIGATION - OFF-CANVAS STYLING (MEDIUM)
+*****************************************************************/
+  #menu.active {
+    display: none;
+  }
 
+  #container.active{
+    display: none;
+  }
 
+  #header.active {
+    display: none;
+  }
 
-}
+/*****************************************************************
+NAV MENU (MEDIUM)
+*****************************************************************/
+
+  .menu-button {
+    display: none;
+  }
+
+  #menu {
+    left: 0em;
+    margin-top: 12em;
+    margin-left: 3em;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 10;
+  }  
+
+  #menu li {  
+    background: #fff;
+    color: #468966;
+  }
+
+  #menu li a {
+    background: #fff;
+    color: #468966;
+    font-size: 1.5em;
+  }
+
+/*****************************************************************
+ARTICLES (MEDIUM)
+*****************************************************************/
+
+  #content {
+    width: 68%;
+    float: right;
+  }
+
+} /* end css styling for medium screen*/
