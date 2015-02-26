@@ -1,3 +1,12 @@
+/*******************************************
+PHONE LAYOUT
+********************************************/
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+
+
 /*****************************************************************
 GENERAL PAGE STYLING
 *****************************************************************/
@@ -259,3 +268,12 @@ vertical display (vertical align middle if you think it's a table)
 FOOTER (See menu button / footer above)
 *****************************************************************/
 
+/*******************************************
+MEDIUM LAYOUT
+********************************************/
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
