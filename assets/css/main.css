@@ -30,6 +30,10 @@ a {
 #container {
   padding-bottom: 50px;
 }
+
+#medium-title {
+  display: none;
+}
 /*****************************************************************
 TITLE BAR
 *****************************************************************/
@@ -301,6 +305,7 @@ TITLE BAR (MEDIUM)
   }
 
   #medium-title {
+    display: block;
     float: left;
     margin-left: 15em;
   }
@@ -340,13 +345,16 @@ NAV MENU (MEDIUM)
 
   #menu {
     left: 0em;
-    margin-top: 12em;
+    margin-top: 10em;
     margin-left: 3em;
     float: left;
     font-family: 'Roboto Slab', serif;
     overflow-y: scroll;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 10;
+    /*top: 0;*/
+    bottom: 0;
+    height: 60%;
   }  
 
   #menu li {  
@@ -369,4 +377,25 @@ ARTICLES (MEDIUM)
     float: right;
   }
 
+  .article-img {
+  float: left;
+  margin-top: 15px;
+  background: #468966;
+  height: 10em;
+  width: 10em;
+  padding-top: 10px;
+  padding-right: 10px;
+  }
+
+  #article-img {
+    background-color: #468966;
+
+  }
+
 } /* end css styling for medium screen*/
+
+
+
+
+
+
