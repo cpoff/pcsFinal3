@@ -31,7 +31,7 @@ a {
   padding-bottom: 50px;
 }
 
-#medium-title {
+#medium-title h1 {
   display: none;
 }
 /*****************************************************************
@@ -345,7 +345,7 @@ NAV MENU (MEDIUM)
 
   #menu {
     left: 0em;
-    margin-top: 10em;
+    margin-top: 11em;
     margin-left: 3em;
     float: left;
     font-family: 'Roboto Slab', serif;
@@ -355,6 +355,7 @@ NAV MENU (MEDIUM)
     /*top: 0;*/
     bottom: 0;
     height: 60%;
+    width: 12em;
   }  
 
   #menu li {  
@@ -375,6 +376,8 @@ ARTICLES (MEDIUM)
   #content {
     width: 68%;
     float: right;
+    margin-left: 15em;
+    margin-top: 8em;
   }
 
   .article-img {
